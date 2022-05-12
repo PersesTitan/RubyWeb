@@ -27,6 +27,8 @@ development:
 * 현재 다운받은 버전들 출력 : rbenv versions
 * gem 설치 : bundle install
 * scaffolding 제작 : rails g scaffold Post name:string title:string content:text
+* DB 실행 : rake db:migrate
+* DB 값 보내기 : rake db:migrate RAILS_ENV=production
   
 * brew update
 * brew install rbenv ruby-build
