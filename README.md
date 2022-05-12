@@ -26,6 +26,7 @@ development:
 * 현재 버전 출력 : ruby --version (ruby -v)
 * 현재 다운받은 버전들 출력 : rbenv versions
 * gem 설치 : bundle install
+* scaffolding 제작 : rails g scaffold Post name:string title:string content:text
   
 * brew update
 * brew install rbenv ruby-build
